@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-16"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en">
+    <body>
+      <trans-unit id="tsMsg">
+        <source>Hello World!</source>
+        <target>Salut la foule !</target>
+      </trans-unit>
+      <trans-unit id="introductionHeader">
+        <source>
+    Hello i18n!
+</source>
+        <target>
+    Bonjour i18n ...
+</target>
+        <note from="description">An introduction header for this sample</note>
+        <note from="meaning">User welcome</note>
+      </trans-unit>
+      <trans-unit id="htmlMsg">
+        <source>message in HTML</source>
+        <target>message en HTML!</target>
+      </trans-unit>
+      <trans-unit id="5a134dee893586d02bffc9611056b9cadf9abfad">
+        <source>{VAR_PLURAL, plural, =0 {just now} =1 {one minute ago} other {<x id="INTERPOLATION" equiv-text="{{minutes}}"/> minutes ago} }</source>
+        <target>{VAR_PLURAL, plural, =0 {à l'instant} =1 {il y a une minute} other {il y a <x id="INTERPOLATION" equiv-text="{{minutes}}"/> minutes} }</target>
+      </trans-unit>
+      <trans-unit id="minutes">
+        <source>Updated <x id="ICU" equiv-text="{minutes, plural, =0 {just now} =1 {one minute ago} other {{{minutes}} minutes ago}}"/>.</source>
+        <target>Mis à jour <x id="ICU" equiv-text="{minutes, plural, =0 {...} =1 {...} other {...}}"/></target>
+      </trans-unit>
+      <trans-unit id="b58719bcb9184e1a7884d00d22d10899d59bf295">
+        <source>Mark</source>
+      </trans-unit>
+      <trans-unit id="9e123ec6998ad8a2cc76de2a7a9c46a3dc2b4b4f">
+        <source>Maria</source>
+        <target>
+        </target>
+      </trans-unit>
+      <trans-unit id="c2a9de3714f5767b174d0424bc8abe2dc37acc41">
+        <source>Other</source>
+        <target>
+        </target>
+      </trans-unit>
+      <trans-unit id="baf89715a571ec7cdf43c9cd7a671926a4e5ac45">
+        <source>{VAR_SELECT, select, mark {mark} mary {mary} other {other}}</source>
+        <target>{VAR_SELECT, select, mark {mark} mary {mary} other {autre} }</target>
+      </trans-unit>
+      <trans-unit id="806b9d82316a2b0e9cafb1835ece1f11e6b37c35">
+        <source>The author is <x id="ICU" equiv-text="{person, select, mark {mark} mary {mary} other {other}}"/></source>
+        <target>
+        </target>
+      </trans-unit>
+      <trans-unit id="4cf6f9ae1bbb74a48732a9cd4b90922e072fe7ea">
+        <source>Updated: <x id="ICU" equiv-text="{minutes, plural,&amp;#xA;  =0 {just now}&amp;#xA;  =1 {one minute ago}&amp;#xA;  other {{{minutes}} minutes ago} } "/> by <x id="ICU_1" equiv-text="{person, select, mark {mark} mary {mary} other {other} }&amp;#xA;"/></source>
+        <target>
+        </target>
+      </trans-unit>
+      <trans-unit id="d69f6b42305f49332026fef24b40227f02e34594">
+        <source>Updated <x id="ICU" equiv-text="{minutes, plural, =0 {...} =1 {...} other {...}}"/></source>
+        <target>Mis à jour <x id="ICU" equiv-text="{minutes, plural, =0 {...} =1 {...} other {...}}"/></target>
+      </trans-unit>
+      <trans-unit id="e9a04d0424df9a2b3ee4df100ad0aa05d4a0eae0">
+        <source>Mary</source>
+        <target>Mary</target>
+      </trans-unit>
+      <trans-unit id="ba0cc104d3d69bf669f97b8d96a4c5d8d9559aa3">
+        <source>I don&apos;t output any element</source>
+        <target>Je n'affiche aucun élément</target>
+      </trans-unit>
+      <trans-unit id="701174153757adf13e7c24a248c8a873ac9f5193">
+        <source>Angular logo</source>
+        <target>Logo d'Angular</target>
+      </trans-unit>
+      <trans-unit id="f99f34ac9bd4606345071bd813858dec29f3b7d1">
+        <source>The author is <x id="ICU" equiv-text="{gender, select, male {...} female {...} other {...}}"/></source>
+        <target>L'auteur est <x id="ICU" equiv-text="{gender, select, male {...} female {...} other {...}}"/></target>
+      </trans-unit>
+      <trans-unit id="eff74b75ab7364b6fa888f1cbfae901aaaf02295">
+        <source>{VAR_SELECT, select, male {male} female {female} other {other} }</source>
+        <target>{VAR_SELECT, select, male {un homme} female {une femme} other {autre} }</target>
+      </trans-unit>
+      <trans-unit id="972cb0cf3e442f7b1c00d7dab168ac08d6bdf20c">
+        <source>Updated: <x id="ICU" equiv-text="{minutes, plural, =0 {...} =1 {...} other {...}}"/></source>
+        <target>Mis à jour: <x id="ICU" equiv-text="{minutes, plural, =0 {...} =1 {...} other {...}}"/></target>
+      </trans-unit>
+      <trans-unit id="7151c2e67748b726f0864fc443861d45df21d706">
+        <source>{VAR_PLURAL, plural, =0 {just now} =1 {one minute ago} other {<x id="INTERPOLATION" equiv-text="{{minutes}}"/> minutes ago by {VAR_SELECT, select, male {male} female {female} other {other} }} }</source>
+        <target>{VAR_PLURAL, plural, =0 {à l'instant} =1 {il y a une minute} other {il y a <x id="INTERPOLATION" equiv-text="{{minutes}}"/> minutes par {VAR_SELECT, select, male {un homme} female {une femme} other {autre} }} }</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

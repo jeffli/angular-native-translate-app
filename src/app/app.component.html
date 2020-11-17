@@ -1,0 +1,38 @@
+<h1 i18n="title|An introduction header for this example@@introductionHeader">
+    Hello i18n...
+</h1>
+
+<ng-container i18n="@@htmlMsg">message in HTML!</ng-container>
+
+<br /> <br />
+<div>{{message}}</div>
+
+<button i18n="@@delete">Remove</button>
+
+<br />
+
+<button i18n="@@delete">Delete</button>
+
+<br /> <br />
+
+<button (click)="inc(1)">+</button> <button (click)="inc(-1)">-</button>
+
+<span i18n="@@minutes">Updated {minutes, plural, =0 {just now} =1 {one minute ago} other {{{minutes}} minutes ago}}.</span>
+({{minutes}})
+
+<br><br>
+
+<span i18n="@@minutes">Updated {minutes, plural, =0 {just now} =1 {one minute ago} other {{{minutes}} minutes ago}}!</span>
+({{minutes}})
+
+<br><br>
+
+<button (click)="mark()" i18n>Mark</button> <button (click)="mary()" i18n>Maria</button><button (click)="other()" i18n>Other</button>
+<span i18n>The author is {person, select, mark {mark} mary {mary} other {other}}</span>
+
+<br><br>
+<span i18n>Updated: {minutes, plural,
+  =0 {just now}
+  =1 {one minute ago}
+  other {{{minutes}} minutes ago} } by {person, select, mark {mark} mary {mary} other {other} }
+</span>

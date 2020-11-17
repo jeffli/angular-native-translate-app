@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="tsMsg" datatype="html">
+        <source>Hello World!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="introductionHeader" datatype="html">
+        <source> Hello i18n...
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+        <note priority="1" from="description">An introduction header for this example</note>
+        <note priority="1" from="meaning">title</note>
+      </trans-unit>
+      <trans-unit id="htmlMsg" datatype="html">
+        <source>message in HTML!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="delete" datatype="html">
+        <source>Remove</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5a134dee893586d02bffc9611056b9cadf9abfad" datatype="html">
+        <source>{VAR_PLURAL, plural, =0 {just now} =1 {one minute ago} other {<x id="INTERPOLATION"/> minutes ago}}</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="minutes" datatype="html">
+        <source>Updated <x id="ICU" equiv-text="{minutes, plural, =0 {just now} =1 {one minute ago} other {{{minutes}} minutes ago}}"/>.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b58719bcb9184e1a7884d00d22d10899d59bf295" datatype="html">
+        <source>Mark</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9e123ec6998ad8a2cc76de2a7a9c46a3dc2b4b4f" datatype="html">
+        <source>Maria</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c2a9de3714f5767b174d0424bc8abe2dc37acc41" datatype="html">
+        <source>Other</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="baf89715a571ec7cdf43c9cd7a671926a4e5ac45" datatype="html">
+        <source>{VAR_SELECT, select, mark {mark} mary {mary} other {other}}</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="806b9d82316a2b0e9cafb1835ece1f11e6b37c35" datatype="html">
+        <source>The author is <x id="ICU" equiv-text="{person, select, mark {mark} mary {mary} other {other}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4cf6f9ae1bbb74a48732a9cd4b90922e072fe7ea" datatype="html">
+        <source>Updated: <x id="ICU" equiv-text="{minutes, plural,
+  =0 {just now}
+  =1 {one minute ago}
+  other {{{minutes}} minutes ago} } "/> by <x id="ICU_1" equiv-text="{person, select, mark {mark} mary {mary} other {other} }
+"/>
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">34,38</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
